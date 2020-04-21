@@ -118,7 +118,7 @@ rotation = [
 
 # whether next map for a new game will be chosen at random
 # if this is false, maps will cycle in order listed in the rotation list
-random_rotation = false
+random_rotation = true
 
 # GAME
 # set the game mode. "ctf" and "tc" are built in game modes; others are custom
