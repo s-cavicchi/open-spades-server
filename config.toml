@@ -91,7 +91,10 @@ login_retries = 3
 # eg. if you have hallway.txt and hallway.vxl, you can add "hallway" to the rotation
 # Note: you can still load a map in-game that isn't on this rotation list with commands
 rotation = [
-  "classicgen",
+  "f_show",
+  "IF",
+  "tunnel-top"
+  # "classicgen",
   # "random"
 ]
 
