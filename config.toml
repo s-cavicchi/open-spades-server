@@ -317,7 +317,7 @@ chatprefix = "."
 
 # piqueserver.scripts.squad
 [squad]
-respawn_time = "32sec"
+respawn_time = "8sec"
 size = 4
 auto_squad = false
 
