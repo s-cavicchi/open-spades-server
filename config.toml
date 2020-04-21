@@ -5,8 +5,8 @@ name = "Cheeky Boi"
 motd = [
  "Welcome to %(server_name)s",
  "Map: %(map_name)s by %(map_author)s",
- "Game mode: %(game_mode)s",
- "Server powered by piqueserver and buildandshoot.com"
+ "Only Aussie Server",
+ "Discord: https://discord.gg/H53xtP"
 ]
 
 # info displaying when user types the /help command
@@ -91,9 +91,10 @@ login_retries = 3
 # eg. if you have hallway.txt and hallway.vxl, you can add "hallway" to the rotation
 # Note: you can still load a map in-game that isn't on this rotation list with commands
 rotation = [
-  "f_show",
+  # "f_show",
   "IF",
-  "tunnel-top"
+  "tunnel-top",
+  "nuketown",
   # "classicgen",
   # "random"
 ]
@@ -179,13 +180,13 @@ cap_limit = 10
 [team1]
 # information about the team1
 # name of the team to be displayed in-game
-name = "Blue"
+name = "Winnie Blues"
 # color of the players
 color = [ 0, 0, 255]
 
 [team2]
 # information about team2 - same settings as for team1
-name = "Colour blind Green"
+name = "Big Red"
 color = [ 255, 0, 0]
 
 [passwords]
