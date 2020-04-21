@@ -1,0 +1,287 @@
+2020-04-21T14:11:54+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:11:54+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:11:54+0000 [piqueserver.extensions#error] gamemode 'piqueserver.game_modes.babbel' not found in either /config/game_modes/ directory or global scope
+2020-04-21T14:11:54+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:11:54 2020
+2020-04-21T14:11:54+0000 [stderr#error] Traceback (most recent call last):
+2020-04-21T14:11:54+0000 [stderr#error]   File "/usr/local/bin/piqueserver", line 11, in <module>
+2020-04-21T14:11:54+0000 [stderr#error]     load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+2020-04-21T14:11:54+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+2020-04-21T14:11:54+0000 [stderr#error]     server.run()
+2020-04-21T14:11:54+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 979, in run
+2020-04-21T14:11:54+0000 [stderr#error]     protocol_class(interface, config.get_dict())
+2020-04-21T14:11:54+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/scripts/disco.py", line 45, in __init__
+2020-04-21T14:11:54+0000 [stderr#error]     protocol.__init__(self, *arg, **kw)
+2020-04-21T14:11:54+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 349, in __init__
+2020-04-21T14:11:54+0000 [stderr#error]     game_mode_name))
+2020-04-21T14:11:54+0000 [stderr#error] ValueError: invalid game mode: custom game mode "piqueserver.game_modes.babbel" does not set protocol.game_mode to one of TC_MODE or CTF_MODE. Are you sure the thing you have specified is a game mode?
+2020-04-21T14:12:30+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:12:30+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:12:30+0000 [piqueserver.extensions#error] gamemode 'piqueserver.game_modes.babbel' not found in either /config/game_modes/ directory or global scope
+2020-04-21T14:12:30+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:12:30 2020
+2020-04-21T14:12:30+0000 [stderr#error] Traceback (most recent call last):
+2020-04-21T14:12:30+0000 [stderr#error]   File "/usr/local/bin/piqueserver", line 11, in <module>
+2020-04-21T14:12:30+0000 [stderr#error]     load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+2020-04-21T14:12:30+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+2020-04-21T14:12:30+0000 [stderr#error]     server.run()
+2020-04-21T14:12:30+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 979, in run
+2020-04-21T14:12:30+0000 [stderr#error]     protocol_class(interface, config.get_dict())
+2020-04-21T14:12:30+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/scripts/disco.py", line 45, in __init__
+2020-04-21T14:12:30+0000 [stderr#error]     protocol.__init__(self, *arg, **kw)
+2020-04-21T14:12:30+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 349, in __init__
+2020-04-21T14:12:30+0000 [stderr#error]     game_mode_name))
+2020-04-21T14:12:30+0000 [stderr#error] ValueError: invalid game mode: custom game mode "piqueserver.game_modes.babbel" does not set protocol.game_mode to one of TC_MODE or CTF_MODE. Are you sure the thing you have specified is a game mode?
+2020-04-21T14:13:45+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:13:45+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:13:45+0000 [piqueserver.extensions#critical] Error while loading gamemode babel: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 969, in run
+	    game_mode_name, game_mode_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 123, in load_script_game_mode
+	    return load_scripts([script_name], script_dir, 'gamemode')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/game_modes/babel.py", line 11, in <module>
+	    from commands import add, admin
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:13:45+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:13:45 2020
+2020-04-21T14:13:45+0000 [stderr#error] Traceback (most recent call last):
+2020-04-21T14:13:45+0000 [stderr#error]   File "/usr/local/bin/piqueserver", line 11, in <module>
+2020-04-21T14:13:45+0000 [stderr#error]     load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+2020-04-21T14:13:45+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+2020-04-21T14:13:45+0000 [stderr#error]     server.run()
+2020-04-21T14:13:45+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 979, in run
+2020-04-21T14:13:45+0000 [stderr#error]     protocol_class(interface, config.get_dict())
+2020-04-21T14:13:45+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/scripts/disco.py", line 45, in __init__
+2020-04-21T14:13:45+0000 [stderr#error]     protocol.__init__(self, *arg, **kw)
+2020-04-21T14:13:45+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 349, in __init__
+2020-04-21T14:13:45+0000 [stderr#error]     game_mode_name))
+2020-04-21T14:13:45+0000 [stderr#error] ValueError: invalid game mode: custom game mode "babel" does not set protocol.game_mode to one of TC_MODE or CTF_MODE. Are you sure the thing you have specified is a game mode?
+2020-04-21T14:13:56+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:13:56+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:13:56+0000 [piqueserver.extensions#critical] Error while loading gamemode piqueserver.game_modes.babel: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 969, in run
+	    game_mode_name, game_mode_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 123, in load_script_game_mode
+	    return load_scripts([script_name], script_dir, 'gamemode')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/game_modes/babel.py", line 11, in <module>
+	    from commands import add, admin
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:13:56+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:13:56 2020
+2020-04-21T14:13:56+0000 [stderr#error] Traceback (most recent call last):
+2020-04-21T14:13:56+0000 [stderr#error]   File "/usr/local/bin/piqueserver", line 11, in <module>
+2020-04-21T14:13:56+0000 [stderr#error]     load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+2020-04-21T14:13:56+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+2020-04-21T14:13:56+0000 [stderr#error]     server.run()
+2020-04-21T14:13:56+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 979, in run
+2020-04-21T14:13:56+0000 [stderr#error]     protocol_class(interface, config.get_dict())
+2020-04-21T14:13:56+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/scripts/disco.py", line 45, in __init__
+2020-04-21T14:13:56+0000 [stderr#error]     protocol.__init__(self, *arg, **kw)
+2020-04-21T14:13:56+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 349, in __init__
+2020-04-21T14:13:56+0000 [stderr#error]     game_mode_name))
+2020-04-21T14:13:56+0000 [stderr#error] ValueError: invalid game mode: custom game mode "piqueserver.game_modes.babel" does not set protocol.game_mode to one of TC_MODE or CTF_MODE. Are you sure the thing you have specified is a game mode?
+2020-04-21T14:14:12+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:14:12+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:14:12+0000 [piqueserver.extensions#critical] Error while loading gamemode babel: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 969, in run
+	    game_mode_name, game_mode_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 123, in load_script_game_mode
+	    return load_scripts([script_name], script_dir, 'gamemode')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/game_modes/babel.py", line 11, in <module>
+	    from commands import add, admin
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:14:12+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:14:12 2020
+2020-04-21T14:14:12+0000 [stderr#error] Traceback (most recent call last):
+2020-04-21T14:14:12+0000 [stderr#error]   File "/usr/local/bin/piqueserver", line 11, in <module>
+2020-04-21T14:14:12+0000 [stderr#error]     load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+2020-04-21T14:14:12+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+2020-04-21T14:14:12+0000 [stderr#error]     server.run()
+2020-04-21T14:14:12+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 979, in run
+2020-04-21T14:14:12+0000 [stderr#error]     protocol_class(interface, config.get_dict())
+2020-04-21T14:14:12+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/scripts/disco.py", line 45, in __init__
+2020-04-21T14:14:12+0000 [stderr#error]     protocol.__init__(self, *arg, **kw)
+2020-04-21T14:14:12+0000 [stderr#error]   File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 349, in __init__
+2020-04-21T14:14:12+0000 [stderr#error]     game_mode_name))
+2020-04-21T14:14:12+0000 [stderr#error] ValueError: invalid game mode: custom game mode "babel" does not set protocol.game_mode to one of TC_MODE or CTF_MODE. Are you sure the thing you have specified is a game mode?
+2020-04-21T14:15:20+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:15:20+0000 [piqueserver.extensions#critical] Error while loading script babel_script: ModuleNotFoundError("No module named 'commands'",)
+	Traceback (most recent call last):
+	  File "/usr/local/bin/piqueserver", line 11, in <module>
+	    load_entry_point('piqueserver==1.0.0', 'console_scripts', 'piqueserver')()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/run.py", line 262, in main
+	    server.run()
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/server.py", line 961, in run
+	    script_names, script_dir)
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 105, in load_scripts_regular_extension
+	    return load_scripts(script_names, script_dir, 'script')
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python3.6/site-packages/piqueserver-1.0.0-py3.6-linux-x86_64.egg/piqueserver/extensions.py", line 82, in load_scripts
+	    spec.loader.exec_module(module)
+	  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+	    
+	  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+	    
+	  File "/config/scripts/babel_script.py", line 22, in <module>
+	    import commands
+	builtins.ModuleNotFoundError: No module named 'commands'
+	
+2020-04-21T14:15:20+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:15:20 2020
+2020-04-21T14:15:20+0000 [piqueserver.server#critical] Invalid map in map rotation (tunnel), exiting.
+2020-04-21T14:16:04+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:16:04+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:16:04 2020
+2020-04-21T14:16:04+0000 [piqueserver.server#critical] Invalid map in map rotation (tunnel), exiting.
+2020-04-21T14:16:29+0000 [piqueserver.server#warn] Team name's length exceeds 9 character limit. More info: https://git.io/fN2cI
+2020-04-21T14:16:29+0000 [piqueserver.server#info] piqueserver started on Tue Apr 21 14:16:29 2020
+2020-04-21T14:16:29+0000 [piqueserver.server#info] advancing to map 'spacestationarena'
+2020-04-21T14:16:29+0000 [piqueserver.server#warn] The following config items are not used:
+2020-04-21T14:16:29+0000 [stdout#info] {'savemap': {'load_saved_map': False},
+2020-04-21T14:16:29+0000 [stdout#info]  'ssh': {'users': {}},
+2020-04-21T14:16:29+0000 [stdout#info]  'votemap': {'autoschedule': False,
+2020-04-21T14:16:29+0000 [stdout#info]              'extension_time': '15min',
+2020-04-21T14:16:29+0000 [stdout#info]              'percentage': 80,
+2020-04-21T14:16:29+0000 [stdout#info]              'player_driven': False,
+2020-04-21T14:16:29+0000 [stdout#info]              'public_votes': True}}
+2020-04-21T14:16:29+0000 [piqueserver.server#info] Started server...
+2020-04-21T14:16:29+0000 [piqueserver.server#info] Retrieving external IP from 'https://services.buildandshoot.com/getip' to generate server identifier.
+2020-04-21T14:16:29+0000 [piqueserver.server#info] starting ban vacuum with 0 bans
+2020-04-21T14:16:29+0000 [piqueserver.map#info] Loading map 'Space Station'...
+2020-04-21T14:16:29+0000 [piqueserver.map#info] Map loaded successfully. (took 0.20s)
+2020-04-21T14:16:30+0000 [piqueserver.server#info] Master connection established.
+2020-04-21T14:16:30+0000 [piqueserver.server#info] Server public ip address: 121.45.200.96:32887
+2020-04-21T14:16:30+0000 [piqueserver.server#info] Public aos identifier: aos://1623731577:32887
+2020-04-21T14:16:31+0000 [-] Received SIGINT, shutting down.

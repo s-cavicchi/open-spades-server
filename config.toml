@@ -80,7 +80,7 @@ scripts = [
  "piqueserver.scripts.blockinfo",
  "piqueserver.scripts.squad",
  "piqueserver.scripts.afk",
- "babel_script"
+#  "babel_script"
 ]
 
 # number of /login attempts allowed before players are auto-kicked (default: 1)
@@ -113,7 +113,7 @@ rotation = [
   "submarinearena",
   "submarine",
   "Trenches",
-  "tunnel",
+  "tunnel-top",
 ]
 
 # whether next map for a new game will be chosen at random
@@ -125,7 +125,7 @@ random_rotation = true
 # game modes specified by python module or python script in the config game_modes
 # directory (without the '.py' extension).
 # Examples: "piqueserver.game_modes.push", "mygame" (where you have config/game_modes/mygame.py)
-game_mode = "piqueserver.game_modes.babbel"
+game_mode = "ctf"
 
 # default time limit to set per map. When the time limit runs out, the map rotation is advanced
 default_time_limit = "30minutes"
