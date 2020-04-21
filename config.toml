@@ -92,12 +92,28 @@ login_retries = 3
 # eg. if you have hallway.txt and hallway.vxl, you can add "hallway" to the rotation
 # Note: you can still load a map in-game that isn't on this rotation list with commands
 rotation = [
-  # "f_show",
   "IF",
   "tunnel-top",
   "nuketown",
-  # "classicgen",
-  # "random"
+  "capitol",
+  "f_show",
+  "IF",
+  "Isthmos",
+  "lonetower",
+  "Metropolis",
+  "museumarena",
+  "museum",
+  "nuketown",
+  "penthousearena",
+  "penthouse",
+  "realisticbridge",
+  "rocketisland",
+  "spacestationarena",
+  "spacestation",
+  "submarinearena",
+  "submarine",
+  "Trenches",
+  "tunnel",
 ]
 
 # whether next map for a new game will be chosen at random
@@ -109,7 +125,7 @@ random_rotation = false
 # game modes specified by python module or python script in the config game_modes
 # directory (without the '.py' extension).
 # Examples: "piqueserver.game_modes.push", "mygame" (where you have config/game_modes/mygame.py)
-game_mode = "babel"
+game_mode = "piqueserver.game_modes.babbel"
 
 # default time limit to set per map. When the time limit runs out, the map rotation is advanced
 default_time_limit = "30minutes"
@@ -318,7 +334,7 @@ chatprefix = "."
 
 # piqueserver.scripts.squad
 [squad]
-respawn_time = "32sec"
+respawn_time = "8sec"
 size = 4
 auto_squad = false
 
