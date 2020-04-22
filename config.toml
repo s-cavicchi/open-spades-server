@@ -206,21 +206,6 @@ color = [ 0, 0, 255]
 name = "Big Red"
 color = [ 255, 0, 0]
 
-[passwords]
-# server management passwords
-# players can login using these to execute privileged commands (kicking,
-# changing maps, etc.)
-# authenticate with: /login <password>
-# supports a list of passwords so you can give different passwords to different
-# people for easy password management.
-# logging in as admin or trusted also disables being votekicked (if that script is enabled)
-# For security reasons, logins are disabled by default.
-#
-#admin = ["adminpass1", "adminpass2"]
-#moderator = ["modpass"]
-#guard = ["guardpass"]
-#trusted = ["trustedpass"]
-
 
 [bans]
 # default duration a banned player will be banned for
