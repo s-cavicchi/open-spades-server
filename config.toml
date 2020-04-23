@@ -13,7 +13,7 @@ motd = [
 # 'server_name', 'map_name', 'map_author', 'map_description', 'game_mode'
 help = [
   "Server name: %(server_name)s", "Map: %(map_name)s by %(map_author)s",
-  "Discord: https://discord.gg/H53xtP",
+  "Discord: https://discord.gg/fG2yQXP",
   "Game mode: %(game_mode)s",
   "/commands Prints all available commands",
   "/help <command_name> Gives description and usage info for a command",
