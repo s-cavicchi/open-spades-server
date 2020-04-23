@@ -81,6 +81,7 @@ scripts = [
  "piqueserver.scripts.squad",
  "piqueserver.scripts.afk",
  "piqueserver.scripts.babel_script",
+ "piqueserver.scripts.votemap"
 ]
 
 # number of /login attempts allowed before players are auto-kicked (default: 1)
@@ -366,6 +367,6 @@ public_votes = true
 extension_time = "15min"
 
 # players can initiate voting for a new map with /votemap
-player_driven = false
+player_driven = true
 autoschedule = false
 percentage = 80
