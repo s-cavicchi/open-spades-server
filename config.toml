@@ -29,7 +29,7 @@ rules = [
 tips = [
   "You are playing %(game_mode)s on %(server_name)s",
   "Type /help for info & commands",
-  "Discord: https://discord.gg/H53xtP",
+  "Discord: https://discord.gg/fG2yQXP",
   "Type /votemap to vote for a new map"
 ]
 
