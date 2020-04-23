@@ -6,7 +6,6 @@ motd = [
  "Welcome to %(server_name)s",
  "Map: %(map_name)s by %(map_author)s",
  "Only Aussie Server",
- "Discord: https://discord.gg/H53xtP"
 ]
 
 # info displaying when user types the /help command
@@ -14,10 +13,11 @@ motd = [
 # 'server_name', 'map_name', 'map_author', 'map_description', 'game_mode'
 help = [
   "Server name: %(server_name)s", "Map: %(map_name)s by %(map_author)s",
+  "Discord: https://discord.gg/H53xtP",
   "Game mode: %(game_mode)s",
   "/commands Prints all available commands",
   "/help <command_name> Gives description and usage info for a command",
-  "/help Prints this message"
+  "/help Prints this message",
 ]
 
 # list of messages to send when the user sends the /rules command
@@ -28,7 +28,9 @@ rules = [
 # random lines from this list are shown at a specified frequency in-game
 tips = [
   "You are playing %(game_mode)s on %(server_name)s",
-  "Type /help for info & commands"
+  "Type /help for info & commands",
+  "Discord: https://discord.gg/H53xtP",
+  "Type /votemap to vote for a new map"
 ]
 
 # how often the tips should display
