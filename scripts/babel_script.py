@@ -73,9 +73,9 @@ def apply_script(protocol, connection, config):
         def get_protected_area(self, team):
             """returns minx, maxx, miny, maxy"""
             if team is self.protocol.blue_team:
-                return 301, 384, 240, 272
+                return (301+50), 384, 240, 272
             else:
-                return 128, 211, 240, 272
+                return 128, (211-50), 240, 272
 
         def invalid_build_position(self, x, y, z):
             position = self.world_object.position
