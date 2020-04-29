@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  xzpassthru() expects parameter 1 to be resource, bool given in <b>/var/www/html/maps/dl.php</b> on line <b>34</b><br />
+<br />
+<b>Warning</b>:  xzclose() expects parameter 1 to be resource, bool given in <b>/var/www/html/maps/dl.php</b> on line <b>35</b><br />
