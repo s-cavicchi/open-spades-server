@@ -3,9 +3,9 @@ name = "Cheeky Boi"
 
 # messages sent when user joins server
 motd = [
- "Welcome to %(server_name)s",
+ "Welcome to %(server_name)s, the OG Aussie Server",
  "Map: %(map_name)s by %(map_author)s",
- "Only Aussie Server",
+
 ]
 
 # info displaying when user types the /help command
