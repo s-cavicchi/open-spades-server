@@ -83,11 +83,15 @@ scripts = [
  "piqueserver.scripts.squad",
  "piqueserver.scripts.afk",
  "babel_script",
- "piqueserver.scripts.votemap"
+ "piqueserver.scripts.votemap",
+ "piqueserver.scripts.badmin",
+ "piqueserver.scripts.daycycle",
+ "piqueserver.scripts.timedmute",
+ "piqueserver.scripts.airstrike2"
 ]
 
 # number of /login attempts allowed before players are auto-kicked (default: 1)
-login_retries = 3
+login_retries = 5
 
 # MAP
 # maps listed in the rotation
@@ -152,7 +156,7 @@ friendly_fire = false
 
 # allow friendly fire if player destroys blocks (helpful if you want to kill
 # griefers
-friendly_fire_on_grief = true
+friendly_fire_on_grief = false
 
 # duration a player is vulnerable to friendly fire if
 # friendly_fire_on_grief enabled
