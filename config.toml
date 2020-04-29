@@ -85,9 +85,7 @@ scripts = [
  "babel_script",
  "piqueserver.scripts.votemap",
  "piqueserver.scripts.badmin",
- "piqueserver.scripts.daycycle",
  "piqueserver.scripts.timedmute",
- "piqueserver.scripts.airstrike2"
 ]
 
 # number of /login attempts allowed before players are auto-kicked (default: 1)
@@ -112,7 +110,7 @@ rotation = [
   "Gobi",
   "Grassy-topo-land",
   "Ha_Long_Babel",
-  "Hijacked",
+  # "Hijacked",
   "IF",
   "Isthmos",
   "lonetower",
@@ -140,7 +138,7 @@ random_rotation = true
 game_mode = "babel"
 
 # default time limit to set per map. When the time limit runs out, the map rotation is advanced
-default_time_limit = "30minutes"
+default_time_limit = "60minutes"
 # advances the map rotation when the game ends, if set to true
 advance_on_win = true
 
