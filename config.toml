@@ -174,7 +174,7 @@ teamswitch_interval = "0sec"
 teamswitch_allowed = true
 
 # attempt to detect speedhacking. This might cause false positives.
-speedhack_detect = true
+speedhack_detect = false
 
 # distance the server tolerates between the place it thinks the client is to where the client actually is.
 rubberband_distance = 10
