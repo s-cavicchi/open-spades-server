@@ -138,7 +138,7 @@ random_rotation = true
 game_mode = "babel"
 
 # default time limit to set per map. When the time limit runs out, the map rotation is advanced
-default_time_limit = "60minutes"
+default_time_limit = "80minutes"
 # advances the map rotation when the game ends, if set to true
 advance_on_win = true
 
